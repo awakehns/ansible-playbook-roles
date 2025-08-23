@@ -1,0 +1,11 @@
+---
+- hosts: all
+  become: true
+  roles:
+    - { role: clickhouse, when: ansible_distribution != "Archlinux" }
+    - role: vector-role
+      tags:
+        - "vector"
+    - role: lighthouse-role
+      tags:
+        - "lighthouse"
