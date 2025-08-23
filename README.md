@@ -214,20 +214,25 @@ encoding.codec = "json"
 
 ### Задание 10
 
-`git init .`
-`git remote add origin git@github.com:ansible-playbook-roles.git`
-`git add .`
-`git branch -m main`
-`git commit -m '.'`
-`git push origin main`
+```
+git init .
+git remote add origin git@github.com:ansible-playbook-roles.git
+git add .
+git branch -m main
+git commit -m '.'
+git push origin main
+```
 
 
 
 ### Задание 11
 
 Роли выложены в репозитории:
+
 https://github.com/awakehns/ansible-playbook-roles
+
 https://github.com/awakehns/vector-role
+
 https://github.com/awakehns/lighthouse-role
 
 
